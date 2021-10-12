@@ -17,3 +17,44 @@ body{
     background: rgba(255,255,255,0.1);
     font-family: 'Kaisei Decol', serif;
 }
+h1{
+    font-family: 'Allison', cursive;
+}
+
+h4{
+    font-family: 'Allison', cursive;
+}
+
+span{
+    font-family: 'Kaisei Decol', serif;
+}
+
+rt{
+    font-size: 5px;
+    font-family: "Noto Sans JP";
+}
+
+.eng{
+    font-family: "Allison", cursive;
+}
+.text {
+    box-shadow: 0 10px 30px 0 rgba(4,53,128,.15);
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    margin:10px 25px 10px 25px;
+}
+
+.sample {
+    height: 300px;
+    width: 300px;
+}
+
+::selection {
+  background: #0ff;
+}
+::-moz-selection {
+  background: #000;
+}
