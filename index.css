@@ -1,1 +1,19 @@
-
+body{
+  back-ground:url(img/77907.jpg);
+  text-align:center;
+  color:#000;
+  bockground:100%;
+  margin:0;
+  position:relative;
+  z-index:1;
+  font-family: 'Noto Sans JP';
+  background-attachment: fixed;
+}
+.body{
+    box-shadow: 0 20px 40px 0 rgba(4,53,128,.15);
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: rgba(255,255,255,0.1);
+    font-family: 'Kaisei Decol', serif;
+}
