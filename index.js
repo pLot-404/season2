@@ -1,4 +1,5 @@
 let page = location.search.split("&")[0].split("=")[1];
+console.log(page)
 let request = new XMLHttpRequest();
 if(page==="main"){
   request.open('GET',"static/main.xml",true);
