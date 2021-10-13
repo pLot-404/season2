@@ -5,7 +5,7 @@ if(page==="main"){
 }
 request.onreadystatechange=function(){
   if(request.readyState===4&&request.status===200){
-    document.getElementById("main").innerHTML = request.response.getElementsByTagName("pages");
+    document.getElementById("main").innerHTML = request.response;
   }
 }
 request.send(null);
