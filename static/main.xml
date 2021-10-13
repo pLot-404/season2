@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pages>
+<div>
   <div class="text">
     <p>
       あの山田事件也が戻ってくる！<br/>
@@ -11,4 +11,4 @@
     <h4><font size=100px>news</font></h4>
     <div id="news"></div>
   </div>
-</pages>
+</div>
