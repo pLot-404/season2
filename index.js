@@ -1,6 +1,6 @@
 let page = location.search.split("&")[0].split("=")[1];
-request.responcseType = "xml"
 let request = new XMLHttpRequest();
+request.responcseType = "xml"
 if(page==="main"){
   request.open('GET',"static/main.xml",true);
 }
