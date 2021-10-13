@@ -6,6 +6,16 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap" rel="stylesheet">
+    <!--PWA設定-->
+    <link rel="manifest" href="../manifest.json">
+    <script>
+        //Service Worker入れてPWA化
+        if('serviceWorker' in navigator){
+            navigator.serviceWorker.register('../sw.js').then(function(){
+                console.log("Service Worker is registered!!");
+            });
+        }
+    </script>
   </head>
   <body>
     <div class="body">
