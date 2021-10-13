@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+  <main>
+    <div class="text">
+      <p>
+        あの山田事件也が戻ってくる！<br/>
+        情報は順次公開いたします!
+      </p>
+    </div>
+    <hr/>
+    <div class="text">
+      <h4><font size=100px>news</font></h4>
+      <div id="news"></div>
+    </div>
+  </main>
+</pages>
