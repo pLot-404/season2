@@ -6,7 +6,7 @@ if(page==="main"){
 }
 request.onreadystatechange=function(){
   if(request.readyState===4&&request.status===200){
-    document.getElementById("main").innerHTML = request.response;
+    document.getElementById("main").innerHTML = request.responseXML;
   }
 }
 request.send(null);
