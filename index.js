@@ -1,4 +1,4 @@
-let page = location.seatch.split("&")[0].split("=")[1];
+let page = location.search.split("&")[0].split("=")[1];
 let request = new XMLHttpRequest();
 if(page==="main"){
   request.open('GET',static/main.xml,true);
