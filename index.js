@@ -8,3 +8,8 @@ request.onreadystatechange=function(){
   }
 }
 request.send(null);
+function main(){
+  document.getElementById("news").addEventListener('click',function(){
+    location.assign("/?page=news")
+  });
+}
