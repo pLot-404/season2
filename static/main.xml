@@ -8,7 +8,7 @@
   </div>
   <hr/>
   <div class="text">
-    <h4 id="news"><font size=100px>news</font></h4>
-    <div id="news"></div>
+    <h4 id="news" onload="main()"><font size=100px>news</font></h4>
+    <div id="newsContent"></div>
   </div>
 </div>
