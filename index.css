@@ -17,16 +17,9 @@ body{
     background: rgba(255,255,255,0.1);
     font-family: 'Kaisei Decol', serif;
 }
-h1{
-    font-family: 'Allison', cursive;
-}
 
-h4{
-    font-family: 'Allison', cursive;
-}
-
-span{
-    font-family: 'Kaisei Decol', serif;
+body:lang(en){
+  font-family:"Allison", cursive;
 }
 
 rt{
