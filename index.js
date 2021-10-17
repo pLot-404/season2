@@ -8,6 +8,9 @@ request.onreadystatechange=function(){
   }
 }
 request.send(null);
+document.getElementsByTagName("header")[0].addEvevtListener("click",function(){
+  location.assign("/season2/?page=main")
+});
 function main(){
   location.assign("/season2/?page=news")
 }
