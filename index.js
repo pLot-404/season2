@@ -9,5 +9,5 @@ request.onreadystatechange=function(){
 }
 request.send(null);
 function main(){
-  location.assign("/?page=news")
+  location.assign("/season2/?page=news")
 }
