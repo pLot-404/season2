@@ -8,7 +8,7 @@ request.onreadystatechange=function(){
   }
 }
 request.send(null);
-document.getElementsByTagName("header")[0].addEvevtListener("click",function(){
+document.getElementById("header").addEvevtListener("click",function(){
   location.assign("/season2/?page=main")
 });
 function main(){
